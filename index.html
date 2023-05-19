@@ -11,66 +11,66 @@
   <title>Recipe App</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
 </head>
 
 <body>
-  <!--[if lt IE 7]>
+  <div class="container">
+    <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  <header>
-    <nav>
-      <a href="#" target="_blank">Recipe</a>
-      <a href="#" target="_blank">Collections</a>
-    </nav>
-  </header>
+    <header>
+      <nav>
+        <a href="#" target="_blank">Recipes</a>
+        <a href="#" target="_blank">Collections</a>
+      </nav>
+    </header>
+    <main>
+      <section class="search_section">
+        <input class="search" type="Text" placeholder="Search for a recipe">
+        <button class="search_btn">Search</button>
+      </section>
 
-  <main>
-    <section>
-      <input type="Text" placeholder="Search for a recipe">
-      <button>Submit</button>
-    </section>
+      <section class="hero">
+        <h1>Recipe App</h1>
+        <p>Find the best recipes for your favorite dishes</p>
+      </section>
 
-    <section>
-      <h1>Recipe App</h1>
-      <p>Find the best recipes for your favorite dishes</p>
-    </section>
+      <section class="recipe_card">
+        <div class="recipe">
+          <img src="Images/Baked Turkey Meatballs.png" width="190px">
+          <h2>Tasty Farms</h2>
+          <p>Baked Turkey Meatballs</p>
+        </div>
 
-    <section>
-      <div>
-        <img src="./Baked Turkey Meatballs.png" width="190px">
-        <h2>Tasty Farms</h2>
-        <p>Baked Turkey Meatballs</p>
-      </div>
+        <div class="recipe">
+          <img src="Images/Chicken Teriyaki.png" width="190px">
+          <h2>SYM Recipes</h2>
+          <p>Chicken Teriyaki</p>
+        </div>
 
-      <div>
-        <img src="./Chicken Teriyaki.png" width="190px">
-        <h2>SYM Recipes</h2>
-        <p>Chicken Teriyaki</p>
-      </div>
+        <div class="recipe">
+          <img src="Images/Garlic butter chicken.png" width="190px">
+          <h2>Tasty Farms</h2>
+          <p>Garlic Butter Chicken</p>
+        </div>
 
-      <div>
-        <img src="./Garlic butter chicken.png" width="190px">
-        <h2>Tasty Farms</h2>
-        <p>Garlic Butter Chicken</p>
-      </div>
+        <div class="recipe">
+          <img src="Images/Healthy Shrimp Alfredo.png" width="190px">
+          <h2>SYM Recipes</h2>
+          <p>Healthy Shrimp Alfredo</p>
+        </div>
 
-      <div>
-        <img src="./Healthy Shrimp Alfredo.png" width="190px">
-        <h2>SYM Recipes</h2>
-        <p>Healthy Shrimp Alfredo</p>
-      </div>
+      </section>
 
-    </section>
-
-  </main>
-
+    </main>
 
 
-  <footer>
-    <p>Recipe App &copy; 2023</p>
-  </footer>
-  <script src="" async defer></script>
+    <footer class="footer">
+      <p>Recipe App &copy; 2023</p>
+    </footer>
+    <script src="" async defer></script>
+  </div>
 </body>
 
 </html>
